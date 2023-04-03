@@ -1,0 +1,11 @@
+[Unit]
+Description=The Service for Reward-Bot.
+
+[Service]
+ExecStart=node {{ git_repo_dest }}/index.js --config {{ config_file_dest }}
+Environment=BOTTOKEN={{ BOTTOKEN }}
+Environment=GITHUBTOKEN={{ GITHUBTOKEN }}
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

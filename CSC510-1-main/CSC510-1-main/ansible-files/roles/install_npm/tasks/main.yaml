@@ -1,0 +1,23 @@
+---
+
+# Idea for atp_key and apt_repository from:
+# https://kyle.pericak.com/nodejs-ansible.html
+
+- name: "Add nodejs apt key"
+  apt_key:
+    url: https://deb.nodesource.com/gpgkey/nodesource.gpg.key
+    state: present
+  become: yes
+
+- name: "Add nodejs 16.x ppa for apt repo"
+  apt_repository:
+    repo: deb https://deb.nodesource.com/node_16.x focal main
+    update_cache: yes
+  become: yes
+
+- name: Install nodejs using apt.
+  apt:
+    name: "nodejs=16.14.2-deb-1nodesource1"
+    state: present
+    update_cache: yes
+  become: yes

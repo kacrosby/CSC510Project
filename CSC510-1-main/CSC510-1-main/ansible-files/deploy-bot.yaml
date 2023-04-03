@@ -1,0 +1,16 @@
+---
+- name: Deploy Rewards Bot
+  hosts: botservers
+  vars_prompt:
+    - name: username
+      prompt: Enter username to log into VCL server
+      private: no
+    - name: password
+      prompt: Enter username to log into the VCL server
+      private: yes
+  roles:
+    - install_npm
+    - get_repo
+    - install_bot
+    - copy_config_file
+    - start_bot

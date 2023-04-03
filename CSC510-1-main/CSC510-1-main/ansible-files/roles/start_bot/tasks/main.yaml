@@ -1,0 +1,28 @@
+---
+
+- name: Template the service file to /etc/systemd/system.
+  template:
+    src: reward_bot.service.j2
+    dest: /etc/systemd/system/reward_bot.service
+    mode: '0755'
+  become: yes
+  register: service_file_register
+
+- name: Restart the Reward Bot Service.
+  systemd:
+    name: reward_bot
+    state: restarted
+    enabled: yes
+    daemon_reload: yes
+  become: yes
+  when: copy_custom_config.changed or delete_custom_config.changed
+  register: bot_restart
+
+- name: Start the Reward Bot Service.
+  systemd:
+    name: reward_bot
+    state: started
+    enabled: yes
+    daemon_reload: yes
+  become: yes
+  when: not bot_restart.changed

@@ -1,0 +1,5 @@
+---
+- name: Install the required NPM packages for the bot
+  npm:
+    path: "{{ git_repo_dest }}"
+  become: yes

@@ -1,0 +1,8 @@
+{
+    "event_messages": {
+        "invalid": "setting",
+        "finished_messages":[
+            "*This is some kinda test with ${user} who just finished:\n${title}."
+        ]
+    }
+}

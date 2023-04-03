@@ -1,0 +1,28 @@
+{
+  "url": "https://github.ncsu.edu/api/v3/repos/csc510-s2022/CSC510-1/pulls/66",
+  "id": 78178,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0NzgxNzg=",
+  "html_url": "https://github.ncsu.edu/csc510-s2022/CSC510-1/pull/66",
+  "diff_url": "https://github.ncsu.edu/csc510-s2022/CSC510-1/pull/66.diff",
+  "patch_url": "https://github.ncsu.edu/csc510-s2022/CSC510-1/pull/66.patch",
+  "issue_url": "https://github.ncsu.edu/api/v3/repos/csc510-s2022/CSC510-1/issues/66",
+  "number": 66,
+  "state": "closed",
+  "locked": false,
+  "title": "Created WORKSHEET.MD with tasks for Sprint 1",
+  "user": {
+    "login": "jrlanois",
+    "id": 16954,
+    "node_id": "MDQ6VXNlcjE2OTU0"
+  },
+  "body": "Created WORKSHEET.MD with tasks for Sprint 1",
+  "created_at": "2022-03-25T03:47:16Z",
+  "updated_at": "2022-03-25T03:52:04Z",
+  "closed_at": "2022-03-25T03:52:04Z",
+  "merged_at:": "2022-03-25T03:52:04Z",
+  "merge_commit_sha": "00e5b426bf0cbc7b2a876cc9abedef3038c5108d",
+  "assignee": null,
+  "assignees": [],
+  "requested_teams": [],
+  "draft": false
+}

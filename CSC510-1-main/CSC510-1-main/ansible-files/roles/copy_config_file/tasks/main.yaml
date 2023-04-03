@@ -1,0 +1,16 @@
+---
+
+- name: Copy Custom Config File when Specified
+  copy:
+    src: "{{ src_config_path }}"
+    dest: "{{ config_file_dest }}"
+    mode: '0644'
+  when: src_config_path is defined
+  register: copy_custom_config
+
+- name: Remove Stale Custom Configs
+  file:
+    path: "{{ config_file_dest }}"
+    state: absent
+  when: not src_config_path is defined
+  register: delete_custom_config

@@ -1,0 +1,121 @@
+[{
+    "url": "https://github.ncsu.edu/api/v3/repos/csc510-s2022/CSC510-1/issues/1",
+    "repository_url": "https://github.ncsu.edu/api/v3/repos/csc510-s2022/CSC510-1",
+    "id": 1,
+    "number": 1,
+    "title": "Issue 1",
+    "user": {
+      "login": "tsbrenna"
+    },
+    "state": "closed",
+    "assignee": {
+      "login": "tsbrenna",
+      "type": "User"
+    },
+    "created_at": "2022-03-07T02:48:52Z",
+    "closed_at": "2022-03-08T12:48:52Z",
+    "body": "This story is to support Use Case 3. It will look on the event storage for events since its last check. It will verify the user who completed each event, and update an internally stored tally for their events completed during the current time interval. After incrementing the tally, it will check the current against an internally stored record. If the current exceeds the record, The current will be come the record and it will call the Chat Composer method for notifying of a Record IssueComplete event."
+  },
+  {
+    "url": "https://github.ncsu.edu/api/v3/repos/csc510-s2022/CSC510-1/issues/2",
+    "repository_url": "https://github.ncsu.edu/api/v3/repos/csc510-s2022/CSC510-1",
+    "id": 2,
+    "number": 2,
+    "title": "Issue 2",
+    "user": {
+      "login": "kacrosby"
+    },
+    "state": "closed",
+    "assignee": {
+      "login": "jrlanois",
+      "type": "User"
+    },
+    "created_at": "2022-02-07T02:48:52Z",
+    "closed_at": "2022-02-25T12:48:52Z",
+    "body": "This story is to support Use Case 3. It will look on the event storage for events since its last check. It will verify the user who completed each event, and update an internally stored tally for their events completed during the current time interval. After incrementing the tally, it will check the current against an internally stored record. If the current exceeds the record, The current will be come the record and it will call the Chat Composer method for notifying of a Record IssueComplete event."
+  },
+  {
+    "url": "https://github.ncsu.edu/api/v3/repos/csc510-s2022/CSC510-1/issues/3",
+    "repository_url": "https://github.ncsu.edu/api/v3/repos/csc510-s2022/CSC510-1",
+    "id": 3,
+    "number": 3,
+    "title": "Issue 3",
+    "user": {
+      "login": "kacrosby"
+    },
+    "state": "closed",
+    "assignee": {
+      "login": "kacrosby",
+      "type": "User"
+    },
+    "created_at": "2022-01-07T02:48:52Z",
+    "closed_at": "2022-02-08T12:48:52Z",
+    "body": "This story is to support Use Case 3. It will look on the event storage for events since its last check. It will verify the user who completed each event, and update an internally stored tally for their events completed during the current time interval. After incrementing the tally, it will check the current against an internally stored record. If the current exceeds the record, The current will be come the record and it will call the Chat Composer method for notifying of a Record IssueComplete event."
+  },
+  {
+    "url": "https://github.ncsu.edu/api/v3/repos/csc510-s2022/CSC510-1/issues/3",
+    "repository_url": "https://github.ncsu.edu/api/v3/repos/csc510-s2022/CSC510-1",
+    "id": 3,
+    "number": 4,
+    "title": "Issue 4",
+    "user": {
+      "login": "ceramire"
+    },
+    "state": "closed",
+    "assignee": {
+      "login": "ceramire",
+      "type": "User"
+    },
+    "created_at": "2022-03-07T02:48:52Z",
+    "closed_at": null,
+    "body": "This story is to support Use Case 3. It will look on the event storage for events since its last check. It will verify the user who completed each event, and update an internally stored tally for their events completed during the current time interval. After incrementing the tally, it will check the current against an internally stored record. If the current exceeds the record, The current will be come the record and it will call the Chat Composer method for notifying of a Record IssueComplete event."
+  },
+  {
+    "url": "https://github.ncsu.edu/api/v3/repos/csc510-s2022/CSC510-1/issues/2",
+    "repository_url": "https://github.ncsu.edu/api/v3/repos/csc510-s2022/CSC510-1",
+    "id": 5,
+    "number": 5,
+    "title": "Issue 5",
+    "user": {
+      "login": "kacrosby"
+    },
+    "state": "open",
+    "assignee": {
+      "login": "jrlanois",
+      "type": "User"
+    },
+    "created_at": "2022-02-07T02:48:52Z",
+    "closed_at": "2022-02-25T12:48:52Z",
+    "body": "This story is to support Use Case 3. It will look on the event storage for events since its last check. It will verify the user who completed each event, and update an internally stored tally for their events completed during the current time interval. After incrementing the tally, it will check the current against an internally stored record. If the current exceeds the record, The current will be come the record and it will call the Chat Composer method for notifying of a Record IssueComplete event."
+  },
+  {
+    "url": "https://github.ncsu.edu/api/v3/repos/csc510-s2022/CSC510-1/issues/2",
+    "repository_url": "https://github.ncsu.edu/api/v3/repos/csc510-s2022/CSC510-1",
+    "id": 6,
+    "number": 6,
+    "title": "Issue 6",
+    "user": {
+      "login": "kacrosby"
+    },
+    "state": "open",
+    "assignee": null,
+    "created_at": "2022-02-07T02:48:52Z",
+    "closed_at": null,
+    "body": "This story is to support Use Case 3. It will look on the event storage for events since its last check. It will verify the user who completed each event, and update an internally stored tally for their events completed during the current time interval. After incrementing the tally, it will check the current against an internally stored record. If the current exceeds the record, The current will be come the record and it will call the Chat Composer method for notifying of a Record IssueComplete event."
+  },
+  {
+    "url": "https://github.ncsu.edu/api/v3/repos/csc510-s2022/CSC510-1/issues/2",
+    "repository_url": "https://github.ncsu.edu/api/v3/repos/csc510-s2022/CSC510-1",
+    "id": 7,
+    "number": 7,
+    "title": "Issue 7",
+    "user": {
+      "login": "kacrosby"
+    },
+    "state": "closed",
+    "assignee": null,
+    "created_at": "2022-02-07T02:48:52Z",
+    "closed_at": "2022-32-07T02:48:52Z",
+    "body": "This story is to support Use Case 3. It will look on the event storage for events since its last check. It will verify the user who completed each event, and update an internally stored tally for their events completed during the current time interval. After incrementing the tally, it will check the current against an internally stored record. If the current exceeds the record, The current will be come the record and it will call the Chat Composer method for notifying of a Record IssueComplete event."
+  }
+]

@@ -1,0 +1,7 @@
+{
+    "event_messages": {
+        "finished_messages":[
+            "*That's one less thing to worry about, ${user} just finished:\n${title}."
+        ]
+    }
+}
